@@ -1,0 +1,48 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliquip fugiat ex sint sit in proident occaecat voluptate culpa deserunt laborum. Officia nostrud pariatur consequat. Consequat occaecat qui fugiat cupidatat ullamco sit tempor eiusmod eiusmod culpa voluptate."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"author",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "typical",
+							"type": "Text"
+						}
+					],
+					[
+						"text",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Qui do est mollit."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

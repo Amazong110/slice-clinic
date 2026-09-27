@@ -1,0 +1,72 @@
+{
+  "id": "case_results",
+  "type": "SharedSlice",
+  "name": "CaseResults",
+  "description": "Anonymized matter outcomes for a law firm",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Three outcome cards",
+      "imageUrl": "",
+      "primary": {
+        "eyebrow": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "SELECTED MATTERS"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,strong,em"
+          }
+        },
+        "lead": {
+          "type": "Text",
+          "config": {
+            "label": "Lead",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "matter": {
+          "type": "Text",
+          "config": {
+            "label": "Matter",
+            "placeholder": "Equity repurchase dispute"
+          }
+        },
+        "outcome": {
+          "type": "Text",
+          "config": {
+            "label": "Outcome",
+            "placeholder": "Structured settlement before hearing"
+          }
+        },
+        "year": {
+          "type": "Text",
+          "config": {
+            "label": "Year",
+            "placeholder": "2024"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      }
+    }
+  ]
+}

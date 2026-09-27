@@ -1,0 +1,95 @@
+{
+  "format": "page",
+  "id": "home_page",
+  "label": "home_page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "slug",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "imagebar": {
+              "type": "SharedSlice"
+            },
+            "home_carousel": {
+              "type": "SharedSlice"
+            },
+            "logo_bar": {
+              "type": "SharedSlice"
+            },
+            "faq": {
+              "type": "SharedSlice"
+            },
+            "info_panel_row": {
+              "type": "SharedSlice"
+            },
+            "reviews": {
+              "type": "SharedSlice"
+            },
+            "text_image": {
+              "type": "SharedSlice"
+            },
+            "text": {
+              "type": "SharedSlice"
+            },
+            "gridimagelist": {
+              "type": "SharedSlice"
+            },
+            "gridimagetext": {
+              "type": "SharedSlice"
+            },
+            "homepage_large_image": {
+              "type": "SharedSlice"
+            },
+            "case_results": {
+              "type": "SharedSlice"
+            },
+            "process_steps": {
+              "type": "SharedSlice"
+            },
+            "appointment_form": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

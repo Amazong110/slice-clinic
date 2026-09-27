@@ -1,0 +1,38 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "eyebrow": {
+        "__TYPE__": "FieldContent",
+        "value": "HOW WE ENGAGE",
+        "type": "Text"
+      },
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading2",
+            "content": {
+              "text": "A clear path from first note to filed plan"
+            }
+          }
+        ]
+      },
+      "lead": {
+        "__TYPE__": "FieldContent",
+        "value": "No black-box billing. Each stage has an owner and a written next step.",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["step_title", { "__TYPE__": "FieldContent", "type": "Text", "value": "Consult" }],
+          ["step_body", { "__TYPE__": "FieldContent", "type": "Text", "value": "Share matter type and timing. We reply in 1–2 business days." }]
+        ]
+      }
+    ]
+  }
+]

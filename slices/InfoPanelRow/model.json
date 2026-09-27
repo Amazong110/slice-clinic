@@ -1,0 +1,46 @@
+{
+  "type": "SharedSlice",
+  "id": "info_panel_row",
+  "name": "InfoPanelRow",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Displays a row of up to three informational panels, each with an icon, descriptive text, and an emphasized value.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "items": {
+          "type": "Group",
+          "config": {
+            "label": "Panels",
+            "fields": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+              },
+              "button_link": {
+                "type": "Link",
+                "config": {
+                  "label": "button_link",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

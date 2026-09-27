@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "@calcom/embed-react": "^1.5.3",
+    "@headlessui/react": "^2.0.3",
+    "@next/third-parties": "^14.2.3",
+    "@prismicio/client": "^7.21.8",
+    "@prismicio/helpers": "^2.3.9",
+    "@prismicio/next": "^2.2.4",
+    "@prismicio/react": "^3.4.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.18",
+    "embla-carousel-autoplay": "^8.0.0",
+    "embla-carousel-react": "^8.0.0",
+    "framer-motion": "^11.2.0",
+    "lucide-react": "^0.555.0",
+    "next": "^14.2.3",
+    "postcss": "^8.4.35",
+    "postmark": "^4.0.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-google-recaptcha": "^3.1.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine"
+  },
+  "devDependencies": {
+    "@prismicio/slice-simulator-react": "^0.2.3",
+    "@slicemachine/adapter-next": "^0.3.96",
+    "playwright": "^1.49.1",
+    "slice-machine-ui": "^2.21.3",
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "slice-clinic-app",
+  "private": true,
+  "version": "0.1.0"
+}

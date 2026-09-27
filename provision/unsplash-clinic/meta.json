@@ -1,0 +1,119 @@
+[
+  {
+    "file": "northvale_hero.jpg",
+    "role": "hero",
+    "author": "Unsplash",
+    "authorUrl": "https://unsplash.com/@unsplash",
+    "page": "https://unsplash.com/photos/1551076805-e1869033e561",
+    "cdn": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=2560&q=85",
+    "bytes": 476878
+  },
+  {
+    "file": "northvale_hero_mobile.jpg",
+    "role": "hero_mobile",
+    "author": "National Cancer Institute",
+    "authorUrl": "https://unsplash.com/@nci",
+    "page": "https://unsplash.com/photos/1579684385127-1ef15d508118",
+    "cdn": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=2560&q=85",
+    "bytes": 1066821
+  },
+  {
+    "file": "northvale_service1.jpg",
+    "role": "service1",
+    "author": "Martha Dominguez de Gouveia",
+    "authorUrl": "https://unsplash.com/@mdominguezdegouveia",
+    "page": "https://unsplash.com/photos/1519494026892-80bbd2d6fd0d",
+    "cdn": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=2560&q=85",
+    "bytes": 616366
+  },
+  {
+    "file": "northvale_service2.jpg",
+    "role": "service2",
+    "author": "National Cancer Institute",
+    "authorUrl": "https://unsplash.com/@nci",
+    "page": "https://unsplash.com/photos/1576091160399-112ba8d25d1d",
+    "cdn": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=2560&q=85",
+    "bytes": 382209
+  },
+  {
+    "file": "northvale_doctor1.jpg",
+    "role": "doctor1",
+    "author": "Usman Yousaf",
+    "authorUrl": "https://unsplash.com/@usmanyousaf",
+    "page": "https://unsplash.com/photos/1559839734-2b71ea197ec2",
+    "cdn": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=2560&q=85",
+    "bytes": 598456
+  },
+  {
+    "file": "northvale_doctor2.jpg",
+    "role": "doctor2",
+    "author": "Bruno Rodrigues",
+    "authorUrl": "https://unsplash.com/@brunoceros",
+    "page": "https://unsplash.com/photos/1594824476967-48c8b964273f",
+    "cdn": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=2560&q=85",
+    "bytes": 863361
+  },
+  {
+    "file": "northvale_doctor3.jpg",
+    "role": "doctor3",
+    "author": "Bruno Rodrigues",
+    "authorUrl": "https://unsplash.com/@brunoceros",
+    "page": "https://unsplash.com/photos/1622253692010-333f2da6031d",
+    "cdn": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=2560&q=85",
+    "bytes": 907031
+  },
+  {
+    "file": "northvale_doctor4.jpg",
+    "role": "doctor4",
+    "author": "Bruno Rodrigues",
+    "authorUrl": "https://unsplash.com/@brunoceros",
+    "page": "https://unsplash.com/photos/1612349317150-e413f6a5b16d",
+    "cdn": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=2560&q=85",
+    "bytes": 440236
+  },
+  {
+    "file": "northvale_care1.jpg",
+    "role": "care1",
+    "author": "Owen Be",
+    "authorUrl": "https://unsplash.com/@owenneel",
+    "page": "https://unsplash.com/photos/1586773860418-d37222d8fce3",
+    "cdn": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=2560&q=85",
+    "bytes": 687997
+  },
+  {
+    "file": "northvale_care2.jpg",
+    "role": "care2",
+    "author": "CDC",
+    "authorUrl": "https://unsplash.com/@cdc",
+    "page": "https://unsplash.com/photos/1666214280557-f1b5022eb634",
+    "cdn": "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?w=2560&q=85",
+    "bytes": 467913
+  },
+  {
+    "file": "northvale_care3.jpg",
+    "role": "care3",
+    "author": "Hush Naidoo Jade Photography",
+    "authorUrl": "https://unsplash.com/@hushnaidoo",
+    "page": "https://unsplash.com/photos/1584982751601-97dcc096659c",
+    "cdn": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=2560&q=85",
+    "bytes": 303266
+  },
+  {
+    "file": "northvale_visit.jpg",
+    "role": "visit",
+    "author": "National Cancer Institute",
+    "authorUrl": "https://unsplash.com/@nci",
+    "page": "https://unsplash.com/photos/1629909613654-28e377c37b09",
+    "cdn": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=2560&q=85",
+    "bytes": 377629
+  },
+  {
+    "file": "northvale_office.jpg",
+    "role": "office",
+    "author": "National Cancer Institute",
+    "authorUrl": "https://unsplash.com/@nci",
+    "page": "https://unsplash.com/photos/1516549655169-df83a0774514",
+    "cdn": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=2560&q=85",
+    "bytes": 491316
+  }
+]

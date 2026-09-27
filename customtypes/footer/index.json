@@ -1,0 +1,51 @@
+{
+  "format": "custom",
+  "id": "footer",
+  "label": "Footer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "company_name": {
+        "type": "Text",
+        "config": {
+          "label": "Company name",
+          "placeholder": "Your Company Ltd"
+        }
+      },
+      "QuickLinks": {
+        "type": "Group",
+        "config": {
+          "label": "Footer links",
+          "repeat": true,
+          "fields": {
+            "button_text": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": "Contact"
+              }
+            },
+            "button_link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "select": "document",
+                "allowTargetBlank": true,
+                "allowText": true,
+                "repeat": false
+              }
+            }
+          }
+        }
+      },
+      "copyright_text": {
+        "type": "Text",
+        "config": {
+          "label": "Extra copyright line (optional)",
+          "placeholder": "All rights reserved."
+        }
+      }
+    }
+  }
+}

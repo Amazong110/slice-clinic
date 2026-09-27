@@ -1,0 +1,39 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "eyebrow": {
+        "__TYPE__": "FieldContent",
+        "value": "SELECTED MATTERS",
+        "type": "Text"
+      },
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading2",
+            "content": {
+              "text": "Outcomes, carefully anonymized"
+            }
+          }
+        ]
+      },
+      "lead": {
+        "__TYPE__": "FieldContent",
+        "value": "Illustrative matters for layout only — not real clients or results.",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["matter", { "__TYPE__": "FieldContent", "type": "Text", "value": "Growth-stage equity repurchase" }],
+          ["outcome", { "__TYPE__": "FieldContent", "type": "Text", "value": "Evidence locked and staged buyback before arbitration." }],
+          ["year", { "__TYPE__": "FieldContent", "type": "Text", "value": "2024" }]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Mollit ea ipsum est aute ex ipsum occaecat eiusmod pariatur aliquip. Elit ullamco adipisicing mollit occaecat ullamco dolore proident eu laborum tempor consectetur incididunt. ",
+							"spans": []
+						},
+						"direction": "ltr"
+					},
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Dolor irure dolor proident irure veniam labore culpa est.",
+							"spans": []
+						},
+						"direction": "ltr"
+					},
+					{
+						"type": "heading3",
+						"content": {
+							"text": "Duis eget ullamcorper",
+							"spans": []
+						},
+						"direction": "ltr"
+					},
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Morbi sollicitudin imperdiet lectus, a sagittis nisl accumsan vel. Duis eget ullamcorper purus. In ullamcorper posuere orci, a pharetra ligula ultrices nec. Fusce ultrices justo ultricies sapien feugiat facilisis eu mollis tortor.",
+							"spans": []
+						},
+						"direction": "ltr"
+					},
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Praesent eget odio eros. Morbi vulputate augue enim, ac auctor leo ultrices sit amet.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"align_center": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			},
+			"padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Both",
+				"type": "Select"
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"key": "19efcc5b-e2fc-4c26-8fa3-d7aa724f256b",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "charge"
+				}
+			}
+		},
+		"items": []
+	}
+]

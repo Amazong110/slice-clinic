@@ -1,0 +1,49 @@
+{
+  "type": "SharedSlice",
+  "id": "logo_bar",
+  "name": "LogoBar",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Logos with Heading",
+      "description": "Displays a heading followed by a row of logos, each optionally linkable. Used to build credibility through recognizable brands or clients.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "logos": {
+          "type": "Group",
+          "config": {
+            "label": "Logos",
+            "fields": {
+              "logo_image": {
+                "type": "Image",
+                "config": {
+                  "label": "Logo Image"
+                }
+              },
+              "logo_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Logo Link",
+                  "allowText": false,
+                  "select": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

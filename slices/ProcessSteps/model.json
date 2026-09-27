@@ -1,0 +1,57 @@
+{
+  "id": "process_steps",
+  "type": "SharedSlice",
+  "name": "ProcessSteps",
+  "description": "Engagement process steps for a law firm",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Horizontal steps on desktop",
+      "imageUrl": "",
+      "primary": {
+        "eyebrow": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "HOW WE ENGAGE"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,strong,em"
+          }
+        },
+        "lead": {
+          "type": "Text",
+          "config": {
+            "label": "Lead",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "step_title": {
+          "type": "Text",
+          "config": {
+            "label": "Step title",
+            "placeholder": "Intake"
+          }
+        },
+        "step_body": {
+          "type": "Text",
+          "config": {
+            "label": "Step body",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

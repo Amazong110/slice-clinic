@@ -1,0 +1,45 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "eyebrow": {
+        "__TYPE__": "FieldContent",
+        "value": "CONSULTATION",
+        "type": "Text"
+      },
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading2",
+            "content": {
+              "text": "Book an appointment"
+            }
+          }
+        ]
+      },
+      "lead": {
+        "__TYPE__": "FieldContent",
+        "value": "Tell us the matter type. A counsel associate will confirm timing within two business days.",
+        "type": "Text"
+      },
+      "submit_label": {
+        "__TYPE__": "FieldContent",
+        "value": "Book an appointment",
+        "type": "Text"
+      },
+      "helper": {
+        "__TYPE__": "FieldContent",
+        "value": "Demo form — opens your mail client. Not a live intake desk.",
+        "type": "Text"
+      },
+      "mailto": {
+        "__TYPE__": "FieldContent",
+        "value": "hello@northvale.example",
+        "type": "Text"
+      }
+    },
+    "items": []
+  }
+]

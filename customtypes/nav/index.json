@@ -1,0 +1,44 @@
+{
+  "format": "custom",
+  "id": "nav",
+  "label": "Navigation",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "brand_name": {
+        "type": "Text",
+        "config": {
+          "label": "Site name / brand",
+          "placeholder": "Your Company"
+        }
+      },
+      "navs": {
+        "type": "Group",
+        "config": {
+          "label": "Menu links",
+          "repeat": true,
+          "fields": {
+            "button_text": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": "About"
+              }
+            },
+            "button_link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "select": "document",
+                "allowTargetBlank": true,
+                "allowText": true,
+                "repeat": false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

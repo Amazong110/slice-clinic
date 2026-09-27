@@ -1,0 +1,107 @@
+{
+  "id": "northvale",
+  "label": "Northvale Clinic",
+  "description": "cold white + near-black + seafoam teal · Fraunces + Plus Jakarta",
+  "fonts": {
+    "display": "\"Fraunces\", \"Source Serif 4\", Georgia, serif",
+    "body": "\"Plus Jakarta Sans\", \"Segoe UI\", sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+  },
+  "fontSize": {
+    "12": "12px",
+    "14": "14px",
+    "16": "16px",
+    "18": "18px",
+    "24": "24px",
+    "32": "32px",
+    "48": "48px",
+    "64": "64px"
+  },
+  "spacing": {
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "48": "48px",
+    "64": "64px",
+    "96": "96px"
+  },
+  "radius": {
+    "0": "0px",
+    "4": "4px",
+    "8": "8px",
+    "16": "16px",
+    "999": "999px",
+    "default": "2px"
+  },
+  "shadow": {
+    "sm": "0 1px 2px rgba(10, 10, 10, 0.05)",
+    "md": "0 10px 28px rgba(10, 10, 10, 0.08)",
+    "lg": "0 20px 48px rgba(10, 10, 10, 0.12)"
+  },
+  "motion": {
+    "duration": {
+      "fast": "150ms",
+      "base": "280ms",
+      "slow": "480ms"
+    },
+    "easing": {
+      "standard": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "emphasized": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "out": "cubic-bezier(0, 0, 0.2, 1)"
+    }
+  },
+  "colors": {
+    "neutral": {
+      "50": "#f7fafb",
+      "100": "#f1f5f7",
+      "200": "#e4eaee",
+      "300": "#c9d4db",
+      "400": "#8a9aa6",
+      "500": "#64748b",
+      "600": "#475569",
+      "700": "#334155",
+      "800": "#1e293b",
+      "900": "#0a0a0a"
+    },
+    "accent": {
+      "50": "#f0fdfa",
+      "100": "#ccfbf1",
+      "200": "#99f6e4",
+      "300": "#5eead4",
+      "400": "#2dd4bf",
+      "500": "#14b8a6",
+      "600": "#0f766e",
+      "700": "#0d5f59",
+      "800": "#115e59",
+      "900": "#134e4a"
+    },
+    "bg": "#f7fafb",
+    "bgElevated": "#ffffff",
+    "fg": "#0a0a0a",
+    "fgMuted": "#5b6b76",
+    "accentSolid": "#0f766e",
+    "accentFg": "#ffffff",
+    "border": "#e4eaee",
+    "brandContrast": "#0a0a0a",
+    "brandHover": "#0d5f59",
+    "brandActive": "#0f766e"
+  },
+  "logoFilter": "none",
+  "heroObject": {
+    "skyFrom": "#D7EEF0",
+    "skyVia": "#E8F4F5",
+    "skyTo": "#F7FAFB",
+    "title": "#0A0A0A",
+    "lead": "#5B6B76",
+    "pillBg": "#0A0A0A14",
+    "pillFg": "#0A0A0A",
+    "btnSolidBg": "#0F766E",
+    "btnSolidFg": "#FFFFFF",
+    "btnDarkBg": "#0A0A0A",
+    "btnDarkFg": "#FFFFFF",
+    "petal": "#0F766E"
+  }
+}

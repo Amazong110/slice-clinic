@@ -1,0 +1,63 @@
+{
+  "id": "appointment_form",
+  "type": "SharedSlice",
+  "name": "AppointmentForm",
+  "description": "Appointment request form for a clinic",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Card form",
+      "imageUrl": "",
+      "primary": {
+        "eyebrow": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "CONSULTATION"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,strong,em"
+          }
+        },
+        "lead": {
+          "type": "Text",
+          "config": {
+            "label": "Lead",
+            "placeholder": ""
+          }
+        },
+        "submit_label": {
+          "type": "Text",
+          "config": {
+            "label": "Submit label",
+            "placeholder": "Book an appointment"
+          }
+        },
+        "helper": {
+          "type": "Text",
+          "config": {
+            "label": "Helper",
+            "placeholder": ""
+          }
+        },
+        "mailto": {
+          "type": "Text",
+          "config": {
+            "label": "Mailto fallback",
+            "placeholder": "hello@northvale.example"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
