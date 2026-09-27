@@ -69,7 +69,7 @@
 | 生产别名 | https://slice-clinic-app.vercel.app |
 | 部署状态 | Ready（CLI inspect） |
 | 生产 HTML | warp 下 HTTP **200**；命中 `Northvale Clinic` ×9 · `Book an appointment` · medical advice 免责声明 |
-| GitHub | https://github.com/Amazong110/slice-clinic · commit `5dc2853` · author Amazong110 |
+| GitHub | https://github.com/Amazong110/slice-clinic · commit `c6d1c1e` · author Amazong110 |
 | 本地 build | `next build` ✓ |
 | 生产部署 | `dpl_EcmQ7CZJrsZf9gXsGccPLADh3R4m` · alias `https://slice-clinic-app.vercel.app` READY |
 
