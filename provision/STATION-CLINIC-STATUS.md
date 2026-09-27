@@ -61,12 +61,26 @@
 
 ---
 
+## 上线证据
+
+| 项 | 结果 |
+|---|---|
+| Vercel 项目 | `codys-projects-39cd6bc0/slice-clinic-app`（个人账号，无 team scope） |
+| 生产别名 | https://slice-clinic-app.vercel.app |
+| 部署状态 | Ready（CLI inspect） |
+| 生产 HTML | warp 下 HTTP **200**；命中 `Northvale Clinic` ×9 · `Book an appointment` · medical advice 免责声明 |
+| GitHub | https://github.com/Amazong110/slice-clinic · commit `2711d81` · author Amazong110 |
+| 本地 build | `next build` ✓ |
+
+---
+
 ## 剩余 / 已知限制
 
 1. **Prismic 仓库待建**：需主人建 `slice-clinic` 并发 Write/Custom Types token 后，再跑 Asset 上传 + 文档发布。  
 2. **中文**：本轮明确只做英文。  
 3. **页高**：桌面 ~7013px，可再收紧 section padding。  
-4. **并发执行**：同目录曾有并行 agent 写入；以当前 seed/截图/部署为准。
+4. **本机直连 Vercel edge**：部分出口超时；验收用 warp on → curl → warp off。  
+5. **创建仓 token**：`github-token.txt`（fine-grained）无 `createRepository`；用餐厅仓同款 classic PAT 建仓并 push。
 
 ---
 
